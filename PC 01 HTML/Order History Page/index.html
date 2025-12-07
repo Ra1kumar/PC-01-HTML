@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order History</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            padding: 40px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 12px 20px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #e0f7e0;
+            transition: background-color 0.3s ease;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 15px;
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h2>Recent Orders</h2>
+
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Name</th>
+            <th>Ship To</th>
+            <th>Payment Method</th>
+            <th>Sale Amount</th>
+        </tr>
+        <tr>
+            <td>16 Mar, 2019</td>
+            <td>Elvis Presley</td>
+            <td>Tupelo, MS</td>
+            <td>VISA ending with 3719</td>
+            <td>$312.99</td>
+        </tr>
+        <tr>
+            <td>16 Mar, 2019</td>
+            <td>Paul McCartney</td>
+            <td>London, I-JK</td>
+            <td>VISA ending with 2574</td>
+            <td>$39.49</td>
+        </tr>
+        <tr>
+            <td>16 Mar, 2019</td>
+            <td>Tom Scholz</td>
+            <td>Boston, MA</td>
+            <td>VISA ending with 1253</td>
+            <td>$3100.00</td>
+        </tr>
+    </table>
+
+    <a href="#">See previous orders</a>
+
+</body>
+</html>
